@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: unq-badge
+    name: b2r-badge
     env: python
     region: oregon
     plan: free
