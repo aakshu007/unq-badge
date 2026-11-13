@@ -8,3 +8,11 @@ __pycache__/
 
 # game cache
 data/
+
+# credentials & local auth
+token.json
+client_secret.json
+auth_url.txt
+*.png
+*.jpg
+*.ttf

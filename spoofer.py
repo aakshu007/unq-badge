@@ -48,9 +48,9 @@ ME_URL = "https://discord.com/api/v9/users/@me?with_analytics_token=true"
 SCIENCE_URL = "https://discord.com/api/v9/science"
 PROPERTIES_URL = "https://cordapi.dolfi.es/api/v2/properties/windows"  # current super_props, local fallback
 GAMES_CDN_URL = "https://cdn.discordapp.com/detectables/games.json"  # used if games.json isn't there
-SUBSCRIBE_URL = "https://www.youtube.com/@solasity?sub_confirmation=1"
-DISCORD_INVITE_LABEL = "discord.gg/QEC6QttWMh"
-DISCORD_INVITE_URL = "https://discord.gg/QEC6QttWMh"
+SUBSCRIBE_URL = "https://www.youtube.com/@aakshu007?sub_confirmation=1"
+DISCORD_INVITE_LABEL = "discord.gg/b2r"
+DISCORD_INVITE_URL = "https://discord.gg/b2r"
 GATE_WAIT = 10            # seconds before enter is accepted on each setup step
 
 BATCH_SIZE = 50           # events per /science request
@@ -702,7 +702,7 @@ class App:
     def _gate(self) -> None:
         # (state flag, action, label, url, past tense) - shown in order, each only until passed once
         steps = [
-            ("subscribed", "subscribe to", "youtube.com/@solasity", SUBSCRIBE_URL, "subscribed"),
+            ("subscribed", "subscribe to", "youtube.com/@aakshu007", SUBSCRIBE_URL, "subscribed"),
             ("joined_discord", "join", DISCORD_INVITE_LABEL, DISCORD_INVITE_URL, "joined"),
         ]
         total = len(steps)
